@@ -85,9 +85,11 @@ function Enter (equation, percent) {
     } else {
         if (percent === 1) {
             var answer = eval(equation);
+            answer = Math.round(answer * 100) / 100;
             $("h1").text(answer/100);
         } else {
             var answer = eval(equation);
+            answer = Math.round(answer * 100) / 100;
             $("h1").text(answer);
         }
     }
