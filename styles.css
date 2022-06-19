@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+    background-color: #333;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 0;
+}
+
+.dark {
+    background-color: rgb(233, 233, 233);
+}
+
+.dark-h1 {
+    color: #333;
+}
+
+.display {
+    height: 237px;
+}
+
+.btn {
+    width: 100%;
+    font-size: 3rem;
+    border: 0px solid #333;
+    border-radius: 0%;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.operator {
+    background-color: #ff8300;
+}
+
+.operator:hover {
+    background-color: #df7300;
+}
+
+.operator:focus {
+    background-color: #df7300;
+}
+
+.num:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+h1 {
+    text-align: right;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    color: #fff;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.numCol {
+    padding: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.dark-mode {
+    position: relative;
+    bottom: 4rem;
+    width: 100%;
+}
+
+i {
+    font-size: 2rem;
+}
